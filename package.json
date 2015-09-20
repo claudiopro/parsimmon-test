@@ -1,0 +1,19 @@
+{
+  "name": "parsimmon-test",
+  "version": "1.0.0",
+  "description": "Test use of parsimmon",
+  "main": "index.js",
+  "scripts": {
+    "test": "PHANTOMJS_BIN=node_modules/phantomjs/bin/phantomjs && karma start karma.conf.js --single-run"
+  },
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "parsimmon": "^0.7.0"
+  },
+  "devDependencies": {
+    "jasmine-core": "^2.3.4",
+    "karma": "^0.13.9",
+    "karma-jasmine": "^0.3.6"
+  }
+}
